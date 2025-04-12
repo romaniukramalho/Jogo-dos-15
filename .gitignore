@@ -1,0 +1,8 @@
+ # Executáveis
+*.exe
+*.out
+*.o
+*~
+*.swp
+.vscode
+jogo15
