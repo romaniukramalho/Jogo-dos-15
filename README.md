@@ -1,6 +1,6 @@
 # 🧩 Jogo dos 15
 
-Um jogo dos 15 (15-puzzle) feito em linguagem C, jogado diretamente no terminal. O objetivo é reorganizar os números de 1 a 15 em ordem crescente movendo as peças com o teclado.
+Um jogo dos 15 feito em linguagem C, jogado diretamente no terminal. O objetivo é reorganizar os números de 1 a 15 em ordem crescente movendo as peças com o teclado.
 
 ---
 
@@ -23,10 +23,10 @@ Use as teclas **WASD** para mover as peças:
 
 | Tecla | Movimento |
 |-------|-----------|
-| `W`   | Move a peça de baixo para cima (empurra o espaço vazio para baixo) |
-| `S`   | Move a peça de cima para baixo (empurra o espaço vazio para cima) |
-| `A`   | Move a peça da direita para esquerda (empurra o espaço vazio para a direita) |
-| `D`   | Move a peça da esquerda para direita (empurra o espaço vazio para a esquerda) |
+| `W`   | Empurra o espaço vazio para baixo |
+| `S`   | Empurra o espaço vazio para cima |
+| `A`   | Empurra o espaço vazio para a direita |
+| `D`   | Empurra o espaço vazio para a esquerda |
 
 O jogo termina quando todos os números estiverem em ordem crescente, com o espaço vazio no canto inferior direito.
 
@@ -50,18 +50,6 @@ Ao vencer, o jogo exibe:
 
 ---
 
-## 🛠️ Execução
-
-### Pré-requisitos
-
-- GCC (GNU Compiler Collection)
-- Sistema operacional Linux ou macOS (usa `system("clear")` e `unistd.h`)
-
-```bash
-./jogo15
-```
-
----
 
 ## 📁 Estrutura do Código
 
